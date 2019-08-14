@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GCGeosKit_Example' do
+  pod 'GCGeosKit', :path => '../'
+
+  target 'GCGeosKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
