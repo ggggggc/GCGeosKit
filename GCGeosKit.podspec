@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GCGeosKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of GCGeosKit.'
 
 # This description is used to generate tags and improve search results.
@@ -24,13 +24,15 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/ggggggc/GCGeosKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ggggggc' => 'CongGong@sf-express.com' }
+  s.author           = { 'ggggggc' => '396047478@qq.com' }
   s.source           = { :git => 'https://github.com/ggggggc/GCGeosKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GCGeosKit/Classes/**/*'
+  
+  s.vendored_libraries = ['GCGeosKit/Classes/lib/libgeos.a']
   
   # s.resource_bundles = {
   #   'GCGeosKit' => ['GCGeosKit/Assets/*.png']

@@ -1,0 +1,6 @@
+framework module GCGeosKit {
+  umbrella header "GCGeosKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

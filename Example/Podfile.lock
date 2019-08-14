@@ -1,0 +1,16 @@
+PODS:
+  - GCGeosKit (0.1.0)
+
+DEPENDENCIES:
+  - GCGeosKit (from `../`)
+
+EXTERNAL SOURCES:
+  GCGeosKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCGeosKit: aedebcf6a87312d56eead333d5171b0e41ae05db
+
+PODFILE CHECKSUM: d293e6cd6b95662e6419edf371ffdbdc46d5e4a8
+
+COCOAPODS: 1.5.3
